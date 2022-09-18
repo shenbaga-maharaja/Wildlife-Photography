@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {
+			background-color: rgba(0,120,0,0.3);
+			background-attachment: fixed;
+			background-size: cover;
+			margin: 2em;
+		}
+		.all {
+			background-color: white;
+			margin: 2em;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+			margin: 1em;
+			border-radius: 20px;
+
+		}
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#mainlogo {
+			width: 15em;
+			height: 15em;
+			border-radius: 50%;
+		}
+		.headbar {
+			display: flex;
+			align-items: center;
+			border-radius: 20px;
+			margin: 2em;
+		}
+		.headbar h1 {
+			padding-left: 3vw;
+			font-family: verdana;
+			font-size: 3em;
+			letter-spacing: 2px;
+			transition: 0.3s;
+		}
+		.headbar h1:hover , nav ul li:hover {
+			color: green;
+		}
+		i {
+			color: green;
+		}
+		nav {
+			margin: 2em;
+		}
+		nav ul li {
+			font-family: verdana;
+			font-size: 1.4em;
+			font-weight: bold;
+			list-style: none;
+			padding-left: 3vw;
+			padding-right: 3vw;
+			transition: 0.3s;
+			margin-right: 2vw;
+		}
+		nav ul  {
+			display: flex;
+			padding: 10px;
+			justify-content: space-between;
+		}
+		nav ul li {
+			background-color: rgba(0,120,0,0.3);
+			border-radius: 10px;
+		}
+		.headbar1 {
+			display: flex;
+			flex-direction: column;
+		}
+		.animals .animal img {
+			width: 15em;
+			height: 15em;
+			border-radius: 10%;
+			margin-top: 1em;
+		}
+		.animals {
+			margin: 2em;
+
+		}
+		.animals .animal {
+			background-color: rgba(0,120,0,0.3);
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border-radius: 30px;
+			margin: 1em;
+			transition: 0.6s;
+		}
+		.animals .animal h5 {
+			font-family: verdana;
+			font-size: 1.2em;
+		}
+		.animals {
+			display: grid;
+			grid-template-columns: 25% 25% 25% 25%;
+			padding-bottom: 2em;
+		}
+		.animals .animal:hover {
+			 transform: scale(1.1);
+		}
+		.last {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 3em;
+		}
+		.last h6 {
+			font-family: verdana;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.last h5 {
+			font-family: verdana;
+			font-size: 1em;
+			letter-spacing: 2px;	
+			font-weight: bold;
+		}
+
+	</style>
+	<title>WildLife Photography</title>
+</head>
+<body>
+	<div class="all">
+		<div class="headbar">
+			<img src="statics/logo.png" alt="" id="mainlogo">
+			<div class="headbar1">
+				<h1>WILDLIFE PHOTOGRAPHY</h1>
+				<nav>
+					<ul>
+						<li>HOME</li>
+						<li>PHOTOS</li>
+						<li>CONTACT</li>
+						<li>ABOUT</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="animals">
+			<div class="animal">
+				<img src="statics/tiger.gif" alt="">
+				<h5>TIGER</h5>
+				<h4><i>panthera tigris</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/ele.gif" alt="">
+				<h5>ELEPHANT</h5>
+				<h4><i>elephas maximus</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/aswin.png" alt="">
+				<h5>SLOTH</h5>
+				<h4><i>folivora</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/bush.jpg" alt="">
+				<h5>BUSH BABY</h5>
+				<h4><i>galagidae</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/orang.jpg" alt="">
+				<h5>ORANGUTAN</h5>
+				<h4><i>pongo pygmaeus</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/chimp.jpg" alt="">
+				<h5>CHIMPANZEE</h5>
+				<h4><i>pan troglodytes</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/cobra.gif" alt="">
+				<h5>COBRA</h5>
+				<h4><i>naja naja</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/lion.jpg" alt="">
+				<h5>LION</h5>
+				<h4><i>panthera leo</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/ari.jpg" alt="">
+				<h5>ARI</h5>
+				<h4><i>homo sapiens</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/nandu.jpg" alt="">
+				<h5>CRAB</h5>
+				<h4><i>brachyura</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/cheetah.gif" alt="">
+				<h5>CHEETAH</h5>
+				<h4><i>acinonyx jubatus</i></h4>
+			</div>
+			<div class="animal">
+				<img src="statics/am.jpg" alt="">
+				<h5>RAJA</h5>
+				<h4><i>homo sapiens</i></h4>
+			</div>
+		</div>
+		<div class="last">
+			<h6>EINSTEIN COLLEGE OF ENGINEERING</h6>
+			<h5>© WILD LIFE PHOTOGRAPHY</h5>
+		</div>
+	</div>
+</body>
+</html>
